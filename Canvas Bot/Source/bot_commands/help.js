@@ -2,7 +2,7 @@ module.exports = {
     name: 'help',
     execute(message, args, Discord){
         const { MessageAttachment, MessageEmbed } = require('discord.js');
-        const file = new MessageAttachment('./Source/Canvas-Bot-Avatar.png');
+        const file = new MessageAttachment('Canvas Bot/Source/Canvas-Bot-Avatar.png');
         const exampleEmbed = new MessageEmbed()
 	      .setColor('#FF5353')
 	      .setTitle('Canvas Bot')
