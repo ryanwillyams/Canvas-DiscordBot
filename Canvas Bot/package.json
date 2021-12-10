@@ -1,31 +1,17 @@
 {
-  "name": "canvasbot",
+  "name": "source",
   "version": "1.0.0",
-  "description": "Canvas bot that requests API data from Canvas",
+  "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "node .",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ryanwillyams/group-8-project.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ryanwillyams/group-8-project/issues"
-  },
-  "homepage": "https://github.com/ryanwillyams/group-8-project#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "json": "^11.0.0",
-    "mongo": "^0.1.0",
-    "mongodb": "^4.2.0",
-    "node-fetch": "^3.0.0",
-    "nodemon": "^2.0.14"
-  },
-  "compilerOptions": {
-    "resolveJsonModule": true
+    "discord.js": "^13.3.1",
+    "fs": "^0.0.1-security",
+    "mongodb": "^4.2.1"
   }
 }
