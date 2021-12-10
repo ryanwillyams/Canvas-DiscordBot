@@ -57,8 +57,8 @@ for(const file of commandFiles){
 
 /***********************Command-Handler***********************/
 client.on("messageCreate", message => {
-    if(!message.content.startsWith(config.prefix) || message.author.bot) return;
-    const args = message.content.slice(config.prefix.length).split(/ +/);
+    if(!message.content.startsWith(process.env.prefix) || message.author.bot) return;
+    const args = message.content.slice(process.env.prefix.length).split(/ +/);
     const command = args.shift().toLowerCase();
     if(command === 'studysession'){
         client.commands.get('studysession').execute(message, args, Discord);
