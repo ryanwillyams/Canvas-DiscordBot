@@ -1,2 +1,2 @@
 web: node index.js
-web: Canvas Bot/Source node .
+web: node Canvas Bot/Source/main.js
