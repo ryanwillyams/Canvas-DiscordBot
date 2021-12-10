@@ -2,7 +2,7 @@
   "name": "canvasbot",
   "version": "1.0.0",
   "description": "Canvas bot that requests API data from Canvas",
-  "main": "main.js",
+  "main": "Canvas Bot/Source/main.js",
   "scripts": {
     "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
