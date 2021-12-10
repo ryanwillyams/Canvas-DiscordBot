@@ -49,7 +49,7 @@ client.on("ready", () => {
 
 /***********************Command-JS-Files***********************/
 client.commands = new Discord.Collection();
-const commandFiles = fs.readdirSync('./bot_commands/').filter(file => file.endsWith('.js'));
+const commandFiles = fs.readdirSync('./Source/bot_commands/').filter(file => file.endsWith('.js'));
 for(const file of commandFiles){
     const command = require(`./bot_commands/${file}`);
     client.commands.set(command.name, command)
