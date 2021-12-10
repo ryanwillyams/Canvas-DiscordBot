@@ -63,6 +63,12 @@ client.on("messageCreate", message => {
     if(command === 'studysession'){
         client.commands.get('studysession').execute(message, args, Discord);
     }
+    else if(command === 'quote'){
+        client.commands.get('quote').execute(message, args, Discord);
+}
+    else if(command === 'help'){
+        client.commands.get('help').execute(message, args, Discord);
+}
     else if(command === 'endsession'){
         client.commands.get('endsession').execute(message, args, Discord);
     }
