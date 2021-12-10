@@ -41,7 +41,7 @@ module.exports = {
             `https://discordapp.com/api/channels/${channel}/messages`, {
                 method: "POST",
                 headers: {
-                    "Authorization": `Bot ${config.TOKEN}`,
+                    "Authorization": `Bot ${process.env.TOKEN}`,
                     Accept: "application/json",
                     "Content-Type": "application/json",
 
