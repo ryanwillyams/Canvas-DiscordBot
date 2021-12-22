@@ -1,4 +1,4 @@
-# group-8-project
+# CanvasBot
 
 ## Overview 🏙
 Our project is essentially a Discord bot that syncs with Canvas and helps students keep track of ongoing assignments, announcements, and exams. This also includes a portal for the user to manage the bot which will be hosted through the website.
